@@ -1,8 +1,9 @@
-import { isInstanceOf } from "instanceof";
+import { isInstanceOf, isInstanceOfWhenImported } from "instanceof";
 
 isInstanceOf();
 isInstanceOf();
-isInstanceOf();
-isInstanceOf();
-isInstanceOf();
-isInstanceOf();
+isInstanceOfWhenImported();
+isInstanceOfWhenImported();
+isInstanceOfWhenImported();
+isInstanceOfWhenImported();
+isInstanceOfWhenImported();
