@@ -1,3 +1,8 @@
 import { isInstanceOf } from "instanceof";
 
-console.log(isInstanceOf());
+isInstanceOf();
+isInstanceOf();
+isInstanceOf();
+isInstanceOf();
+isInstanceOf();
+isInstanceOf();

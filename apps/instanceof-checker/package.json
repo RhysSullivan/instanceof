@@ -6,9 +6,10 @@
   "license": "MIT",
   "scripts": {
     "lint": "eslint *.ts*",
-    "build": "tsc",
-    "watch": "tsc -w",
-    "dev": "tsc && node ./dist/index.js"
+    "build": "tsup",
+    "watch": "tsup -w",
+    "dev": "pnpm build && node ./dist/index.js"
+
   },
   "dependencies": {
     "instanceof": "workspace:*"
